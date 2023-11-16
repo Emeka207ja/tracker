@@ -12,9 +12,19 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
    
-     <NotAuthLayout>
-        <LandingPage/>
-     </NotAuthLayout>
+     <>
+     <Head>
+      <link
+         rel="icon"
+         href="/assets/image/tracker.JPG"
+         type="image/<generated>"
+         sizes="<generated>"
+         />
+     </Head>
+         <NotAuthLayout>
+            <LandingPage/>
+         </NotAuthLayout>
+     </>
    
   )
 }
