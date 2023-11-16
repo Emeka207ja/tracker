@@ -99,6 +99,7 @@ export const Signup:React.FC = ()=>{
                         <Input
                             name="password"
                             onChange={formHandler}
+                            type="password"
                         />
                     </FormControl>
 
