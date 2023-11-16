@@ -49,7 +49,10 @@ import { istoreReport,iSuggestionReport } from "./service";
                 {
                     sugestions.length>0 ?sugestions.map(item=>{
                         return(
-                           <Card mt={"0.7rem"}>
+                           <Card 
+                           mt={"0.7rem"}
+                           key={item.id}
+                           >
                                 <CardBody>
                                     <Box fontSize={"0.7rem"} mb={"0.7rem"}>
                                         <Text>last seen by {item.name} at :</Text>
