@@ -59,7 +59,7 @@ export const Login = ()=>{
                     
                     <FormControl mt={"0.6rem"}>
                         <FormLabel fontSize={"0.7rem"}>Password</FormLabel>
-                        <Input name="password" onChange={formHandler}/>
+                        <Input name="password" onChange={formHandler } type="password"/>
                     </FormControl>
 
                     

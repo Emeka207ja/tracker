@@ -107,6 +107,7 @@ export const Signup:React.FC = ()=>{
                         <Input
                             name="confirm_password"
                             onChange={formHandler}
+                            type="password"
                         />
                     </FormControl>
                     <Button colorScheme="blue" w={"100%"} mt={"1rem"} type="submit">submit</Button>
