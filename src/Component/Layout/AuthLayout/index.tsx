@@ -59,7 +59,7 @@ interface LinkItemProps {
   url:string
 }
 const LinkItems: LinkItemProps[] = [
-  { name: 'All reports', icon: FiHome, url:"/" },
+  { name: 'All reports', icon: FiHome, url:"/report/authviewreport" },
   { name: 'Report a lost person', icon: FiHome, url:"/report/makereport" },
   { name: 'update profile', icon: SiAuthy, url:"/profile" },
 ];

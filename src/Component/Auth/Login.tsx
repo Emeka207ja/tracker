@@ -68,7 +68,7 @@ export const Login = ()=>{
                
           
             <Center mt={"0.4rem"}>
-                <Text fontSize={"0.6rem"}>no account yet? <Link href={"/"} passHref>signup</Link></Text>
+                <Text fontSize={"0.6rem"}>no account yet? <Link href={"/auth/signup"} passHref>signup</Link></Text>
             </Center>
         </Container>
     )
